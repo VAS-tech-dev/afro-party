@@ -1,0 +1,206 @@
+{
+  "meta": {
+    "title": "Afro-Latina Party — VAS",
+    "description": "Afrobeats, Amapiano, Latino & Reggaeton. One unforgettable night hosted by VAS at BeatMatch Club in Worms. Friday 17 July 2026, from 22:00."
+  },
+  "common": {
+    "registerNow": "Confirm my attendance",
+    "viewPrices": "View ticket prices",
+    "backHome": "Back home",
+    "loading": "Loading…",
+    "free": "Free",
+    "from": "From",
+    "language": "Language",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu"
+  },
+  "nav": {
+    "event": "The event",
+    "whyJoin": "Why join",
+    "prices": "Prices",
+    "location": "Location",
+    "faq": "FAQ"
+  },
+  "hero": {
+    "posterAlt": "Official Afro-Latina Party poster",
+    "organizedBy": "Organized by VAS — Verein Afrikanischer Studierende",
+    "tagline": "Afrobeats, Amapiano, Latino & Reggaeton — one night to live it all.",
+    "date": "Friday 17 July 2026",
+    "time": "From 22:00",
+    "countdown": {
+      "title": "The event starts in",
+      "days": "Days",
+      "hours": "Hours",
+      "minutes": "Minutes",
+      "seconds": "Seconds",
+      "live": "It's happening now!"
+    }
+  },
+  "event": {
+    "eyebrow": "The event",
+    "title": "One night, every sound",
+    "subtitle": "The best of afro and latino on a single dancefloor, carried by an international crowd.",
+    "items": {
+      "afrobeats": "Afrobeats",
+      "amapiano": "Amapiano",
+      "dancehall": "Dancehall",
+      "latino": "Latino",
+      "reggaeton": "Reggaeton",
+      "international": "International sounds",
+      "networking": "Networking",
+      "atmosphere": "Great atmosphere"
+    }
+  },
+  "whyJoin": {
+    "eyebrow": "Why join",
+    "title": "Make this night yours",
+    "subtitle": "It's more than a party — it's where people meet.",
+    "items": {
+      "music": {
+        "title": "Music that moves",
+        "description": "The best afro & latino sounds, mixed all night long."
+      },
+      "people": {
+        "title": "Meet the world",
+        "description": "New faces, new vibes, one dancefloor."
+      },
+      "student": {
+        "title": "Open to everyone",
+        "description": "A public night, open to all — not just students."
+      },
+      "atmosphere": {
+        "title": "Amazing atmosphere",
+        "description": "Lights, energy and a crowd that lives the music."
+      },
+      "community": {
+        "title": "International community",
+        "description": "A night where every culture comes together."
+      },
+      "venue": {
+        "title": "Premium venue",
+        "description": "BeatMatch Club in Worms, just for us."
+      }
+    }
+  },
+  "prices": {
+    "eyebrow": "Prices",
+    "title": "Choose your entry price",
+    "subtitle": "Each price is the entry to the party. Confirm your attendance, pay at the door or online.",
+    "perPerson": "per person",
+    "cta": "Confirm my attendance",
+    "popular": "Most chosen",
+    "categories": {
+      "VAS_MEMBER": {
+        "name": "VAS Member",
+        "description": "For association members, with your membership number."
+      },
+      "STUDENT": {
+        "name": "Student",
+        "description": "Student rate, on simple attendance confirmation."
+      },
+      "NON_STUDENT": {
+        "name": "Non-student",
+        "description": "Standard entry, open to everyone."
+      },
+      "CONTRIBUTOR": {
+        "name": "VAS Contributor",
+        "description": "For people involved in VAS activities."
+      }
+    },
+    "note": {
+      "title": "Good to know",
+      "body": "VAS members and engaged members provide their membership number: the status is verified by an administrator. Students show a valid student card at the entrance. Prices are the entry to the party."
+    }
+  },
+  "location": {
+    "eyebrow": "Location",
+    "title": "See you at BeatMatch Club",
+    "subtitle": "In the heart of Worms, a club built for the night.",
+    "directions": "Get directions"
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Frequently asked questions",
+    "subtitle": "Everything you need to know before the night.",
+    "items": {
+      "register": {
+        "question": "How do I confirm my attendance?",
+        "answer": "Click \"Confirm my attendance\", choose your category and fill in the form. You'll receive a confirmation email right away."
+      },
+      "pay": {
+        "question": "How do I pay?",
+        "answer": "Payment is manual via PayPal or on site. If you choose to pay online, your confirmation email contains the PayPal link and the exact amount, with your name as the reference (Verwendungszweck)."
+      },
+      "ticket": {
+        "question": "When will I get my ticket?",
+        "answer": "Your ticket with a QR code is emailed as soon as your payment is confirmed by the team. Approved free entries receive their ticket directly."
+      },
+      "qrcode": {
+        "question": "How does the QR code work?",
+        "answer": "Your ticket carries a unique, secure QR code. Just show it at the door: it's scanned and validated in a second."
+      },
+      "later": {
+        "question": "Can I pay later?",
+        "answer": "Yes. You can confirm your attendance without paying immediately and settle later, online or right at the door."
+      },
+      "verify": {
+        "question": "Do members need to be verified?",
+        "answer": "Yes. VAS members and people involved in VAS activities are verified by an administrator before payment details or the ticket are sent."
+      }
+    }
+  },
+  "cta": {
+    "title": "Ready for an unforgettable night?",
+    "subtitle": "Spots go fast. Confirm your attendance now.",
+    "button": "Confirm my attendance"
+  },
+  "register": {
+    "title": "Confirm your attendance",
+    "subtitle": "A few details and you're set. You'll get a confirmation email right away.",
+    "fields": {
+      "firstName": "First name",
+      "lastName": "Last name",
+      "email": "Email address",
+      "phone": "Phone",
+      "language": "Language",
+      "category": "Your entry ticket",
+      "memberNumber": "Membership number",
+      "memberNumberHint": "Your status will be verified by an administrator before approval."
+    },
+    "studentNote": "Student rate: a valid student card will be required at the entrance.",
+    "pay": {
+      "question": "Would you like to pay your entry now?",
+      "yes": "Yes, pay now",
+      "no": "No, at the door"
+    },
+    "contributorNote": "Free entry for engaged VAS members. Your membership number will be verified by an administrator; no payment is required.",
+    "submit": "Confirm my attendance",
+    "submitting": "Sending…",
+    "error": "Something went wrong. Please try again in a moment.",
+    "validation": {
+      "firstName": "Please enter your first name.",
+      "lastName": "Please enter your last name.",
+      "email": "Please enter a valid email address.",
+      "phone": "Please enter a valid phone number.",
+      "category": "Please choose a category.",
+      "memberNumber": "Your VAS membership number is required.",
+      "language": "Please choose a language."
+    }
+  },
+  "success": {
+    "title": "Registration received",
+    "body": "Thank you! Your attendance has been recorded. We'll be in touch shortly with the next steps.",
+    "reference": "Your reference",
+    "back": "Back home"
+  },
+  "footer": {
+    "tagline": "An unforgettable afro-latina night, hosted by the Verein Afrikanischer Studierende.",
+    "contact": "Contact",
+    "address": "Address",
+    "follow": "Follow us",
+    "legal": "Legal notice",
+    "privacy": "Privacy",
+    "rights": "All rights reserved.",
+    "madeBy": "Hosted by VAS · Worms"
+  }
+}

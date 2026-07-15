@@ -1,0 +1,11 @@
+# Normalize line endings to LF in the repository (avoids CRLF churn on Windows
+# and keeps the code consistent on Vercel's Linux build).
+* text=auto eol=lf
+
+# Treat these as binary (never touch line endings).
+*.jpeg binary
+*.jpg binary
+*.png binary
+*.webp binary
+*.ico binary
+*.pdf binary

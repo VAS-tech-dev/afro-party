@@ -1,0 +1,206 @@
+{
+  "meta": {
+    "title": "Afro-Latina Party — VAS",
+    "description": "Afrobeats, Amapiano, Latino & Reggaeton. Eine unvergessliche Nacht, präsentiert vom VAS im BeatMatch Club in Worms. Freitag, 17. Juli 2026, ab 22:00 Uhr."
+  },
+  "common": {
+    "registerNow": "Teilnahme bestätigen",
+    "viewPrices": "Preise ansehen",
+    "backHome": "Zur Startseite",
+    "loading": "Lädt…",
+    "free": "Kostenlos",
+    "from": "Ab",
+    "language": "Sprache",
+    "openMenu": "Menü öffnen",
+    "closeMenu": "Menü schließen"
+  },
+  "nav": {
+    "event": "Das Event",
+    "whyJoin": "Warum dabei sein",
+    "prices": "Preise",
+    "location": "Ort",
+    "faq": "FAQ"
+  },
+  "hero": {
+    "posterAlt": "Offizielles Plakat der Afro-Latina Party",
+    "organizedBy": "Organisiert von der VAS — Verein Afrikanischer Studierende",
+    "tagline": "Afrobeats, Amapiano, Latino & Reggaeton — eine Nacht, um alles zu erleben.",
+    "date": "Freitag, 17. Juli 2026",
+    "time": "Ab 22:00 Uhr",
+    "countdown": {
+      "title": "Das Event beginnt in",
+      "days": "Tage",
+      "hours": "Stunden",
+      "minutes": "Minuten",
+      "seconds": "Sekunden",
+      "live": "Es geht jetzt los!"
+    }
+  },
+  "event": {
+    "eyebrow": "Das Event",
+    "title": "Eine Nacht, alle Sounds",
+    "subtitle": "Das Beste aus Afro und Latino auf einem Dancefloor, getragen von einer internationalen Crowd.",
+    "items": {
+      "afrobeats": "Afrobeats",
+      "amapiano": "Amapiano",
+      "dancehall": "Dancehall",
+      "latino": "Latino",
+      "reggaeton": "Reggaeton",
+      "international": "Internationale Sounds",
+      "networking": "Networking",
+      "atmosphere": "Gute Stimmung"
+    }
+  },
+  "whyJoin": {
+    "eyebrow": "Warum dabei sein",
+    "title": "Mach diese Nacht zu deiner",
+    "subtitle": "Mehr als eine Party — hier trifft man sich.",
+    "items": {
+      "music": {
+        "title": "Musik, die bewegt",
+        "description": "Die besten Afro- & Latino-Sounds, die ganze Nacht gemixt."
+      },
+      "people": {
+        "title": "Triff die Welt",
+        "description": "Neue Gesichter, neue Vibes, ein Dancefloor."
+      },
+      "student": {
+        "title": "Für alle offen",
+        "description": "Eine öffentliche Nacht, offen für alle — nicht nur für Studierende."
+      },
+      "atmosphere": {
+        "title": "Wahnsinnsstimmung",
+        "description": "Lichter, Energie und eine Crowd, die die Musik lebt."
+      },
+      "community": {
+        "title": "Internationale Community",
+        "description": "Eine Nacht, in der alle Kulturen zusammenkommen."
+      },
+      "venue": {
+        "title": "Premium-Location",
+        "description": "Der BeatMatch Club in Worms, nur für uns."
+      }
+    }
+  },
+  "prices": {
+    "eyebrow": "Preise",
+    "title": "Wähle deinen Eintritt",
+    "subtitle": "Jeder Preis ist der Eintritt zur Party. Bestätige deine Teilnahme, zahle am Eingang oder online.",
+    "perPerson": "pro Person",
+    "cta": "Teilnahme bestätigen",
+    "popular": "Am häufigsten gewählt",
+    "categories": {
+      "VAS_MEMBER": {
+        "name": "VAS-Mitglied",
+        "description": "Für Vereinsmitglieder, mit Angabe der Mitgliedsnummer."
+      },
+      "STUDENT": {
+        "name": "Studierende",
+        "description": "Studitarif, mit einfacher Teilnahmebestätigung."
+      },
+      "NON_STUDENT": {
+        "name": "Nicht-Studierende",
+        "description": "Standard-Eintritt, offen für alle."
+      },
+      "CONTRIBUTOR": {
+        "name": "VAS-Engagierte",
+        "description": "Für Personen, die sich in den VAS-Aktivitäten engagieren."
+      }
+    },
+    "note": {
+      "title": "Gut zu wissen",
+      "body": "VAS-Mitglieder und engagierte Mitglieder geben ihre Mitgliedsnummer an: Der Status wird von einem Administrator geprüft. Studierende zeigen am Eingang einen gültigen Studierendenausweis. Die Preise entsprechen dem Eintritt zur Party."
+    }
+  },
+  "location": {
+    "eyebrow": "Ort",
+    "title": "Wir sehen uns im BeatMatch Club",
+    "subtitle": "Mitten in Worms, ein Club für die Nacht gemacht.",
+    "directions": "Route öffnen"
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Häufige Fragen",
+    "subtitle": "Alles, was du vor der Nacht wissen musst.",
+    "items": {
+      "register": {
+        "question": "Wie bestätige ich meine Teilnahme?",
+        "answer": "Klicke auf „Teilnahme bestätigen“, wähle deine Kategorie und fülle das Formular aus. Du erhältst sofort eine Bestätigungs-E-Mail."
+      },
+      "pay": {
+        "question": "Wie bezahle ich?",
+        "answer": "Die Zahlung erfolgt manuell per PayPal oder vor Ort. Wenn du online zahlst, enthält deine Bestätigungs-E-Mail den PayPal-Link und den genauen Betrag, mit deinem Namen als Verwendungszweck."
+      },
+      "ticket": {
+        "question": "Wann bekomme ich mein Ticket?",
+        "answer": "Dein Ticket mit QR-Code wird per E-Mail verschickt, sobald deine Zahlung vom Team bestätigt wurde. Freigegebene kostenlose Eintritte erhalten ihr Ticket direkt."
+      },
+      "qrcode": {
+        "question": "Wie funktioniert der QR-Code?",
+        "answer": "Dein Ticket trägt einen einzigartigen, sicheren QR-Code. Zeige ihn einfach am Eingang: Er wird in einer Sekunde gescannt und bestätigt."
+      },
+      "later": {
+        "question": "Kann ich später bezahlen?",
+        "answer": "Ja. Du kannst deine Teilnahme bestätigen, ohne sofort zu zahlen, und später online oder direkt am Eingang begleichen."
+      },
+      "verify": {
+        "question": "Müssen Mitglieder verifiziert werden?",
+        "answer": "Ja. VAS-Mitglieder und in den VAS-Aktivitäten engagierte Personen werden von einem Administrator geprüft, bevor Zahlungsinformationen oder das Ticket versendet werden."
+      }
+    }
+  },
+  "cta": {
+    "title": "Bereit für eine unvergessliche Nacht?",
+    "subtitle": "Die Plätze sind schnell weg. Bestätige jetzt deine Teilnahme.",
+    "button": "Teilnahme bestätigen"
+  },
+  "register": {
+    "title": "Bestätige deine Teilnahme",
+    "subtitle": "Ein paar Angaben und fertig. Du erhältst sofort eine Bestätigungs-E-Mail.",
+    "fields": {
+      "firstName": "Vorname",
+      "lastName": "Nachname",
+      "email": "E-Mail-Adresse",
+      "phone": "Telefon",
+      "language": "Sprache",
+      "category": "Dein Eintritt",
+      "memberNumber": "Mitgliedsnummer",
+      "memberNumberHint": "Dein Status wird von einem Administrator vor der Freigabe geprüft."
+    },
+    "studentNote": "Studitarif: Am Eingang wird ein gültiger Studierendenausweis verlangt.",
+    "pay": {
+      "question": "Möchtest du deinen Eintritt jetzt bezahlen?",
+      "yes": "Ja, jetzt bezahlen",
+      "no": "Nein, am Eingang"
+    },
+    "contributorNote": "Freier Eintritt für engagierte VAS-Mitglieder. Deine Mitgliedsnummer wird von einem Administrator geprüft; es ist keine Zahlung erforderlich.",
+    "submit": "Teilnahme bestätigen",
+    "submitting": "Wird gesendet…",
+    "error": "Etwas ist schiefgelaufen. Bitte versuche es gleich noch einmal.",
+    "validation": {
+      "firstName": "Bitte gib deinen Vornamen ein.",
+      "lastName": "Bitte gib deinen Nachnamen ein.",
+      "email": "Bitte gib eine gültige E-Mail-Adresse ein.",
+      "phone": "Bitte gib eine gültige Telefonnummer ein.",
+      "category": "Bitte wähle eine Kategorie.",
+      "memberNumber": "Deine VAS-Mitgliedsnummer ist erforderlich.",
+      "language": "Bitte wähle eine Sprache."
+    }
+  },
+  "success": {
+    "title": "Anmeldung erhalten",
+    "body": "Danke! Deine Teilnahme wurde erfasst. Wir melden uns in Kürze mit den nächsten Schritten.",
+    "reference": "Deine Referenz",
+    "back": "Zur Startseite"
+  },
+  "footer": {
+    "tagline": "Eine unvergessliche Afro-Latina-Nacht, präsentiert vom Verein Afrikanischer Studierende.",
+    "contact": "Kontakt",
+    "address": "Adresse",
+    "follow": "Folge uns",
+    "legal": "Impressum",
+    "privacy": "Datenschutz",
+    "rights": "Alle Rechte vorbehalten.",
+    "madeBy": "Präsentiert vom VAS · Worms"
+  }
+}

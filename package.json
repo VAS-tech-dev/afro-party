@@ -1,0 +1,51 @@
+{
+  "name": "afro-latina-party",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Premium event website & lightweight ticketing for the VAS Afro-Latina Party.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "format": "prettier --write .",
+    "typecheck": "tsc --noEmit",
+    "hash-password": "node scripts/hash-password.mjs"
+  },
+  "dependencies": {
+    "@hookform/resolvers": "^3.9.1",
+    "@react-email/components": "^0.0.31",
+    "@react-email/render": "^1.0.3",
+    "@supabase/supabase-js": "^2.47.10",
+    "clsx": "^2.1.1",
+    "framer-motion": "^11.15.0",
+    "html5-qrcode": "^2.3.8",
+    "jose": "^5.9.6",
+    "lucide-react": "^0.469.0",
+    "next": "^15.5.20",
+    "next-intl": "^3.26.3",
+    "nodemailer": "^6.9.16",
+    "qrcode": "^1.5.4",
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
+    "react-hook-form": "^7.54.2",
+    "react-icons": "^5.4.0",
+    "tailwind-merge": "^2.6.0",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.5",
+    "@types/nodemailer": "^6.4.17",
+    "@types/qrcode": "^1.5.5",
+    "@types/react": "^19.0.3",
+    "@types/react-dom": "^19.0.2",
+    "autoprefixer": "^10.4.20",
+    "eslint": "^9.17.0",
+    "eslint-config-next": "^15.5.20",
+    "postcss": "^8.4.49",
+    "prettier": "^3.4.2",
+    "prettier-plugin-tailwindcss": "^0.6.9",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5.7.2"
+  }
+}

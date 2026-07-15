@@ -1,0 +1,138 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ==========================================================================
+   VAS design tokens — Navy · Gold · White
+   Single source of truth for the palette. Values are space-separated RGB
+   channels so Tailwind can apply opacity via `rgb(var(--x) / <alpha-value>)`.
+   Derived from the VAS logo (deep navy field, gold gradient lettering).
+   ========================================================================== */
+:root {
+  /* Navy scale — deep field to raised surfaces */
+  --navy-950: 8 16 38; /* #081026 page background */
+  --navy-900: 10 22 51; /* #0A1633 primary navy */
+  --navy-800: 18 33 80; /* #122150 raised surface */
+  --navy-700: 28 46 102; /* #1C2E66 borders / hover */
+  --navy-600: 44 66 130; /* #2C4282 accent line */
+
+  /* Gold scale — from the logo's gradient lettering */
+  --gold-deep: 179 130 46; /* #B3822E */
+  --gold: 233 193 88; /* #E9C158 primary gold */
+  --gold-light: 245 216 138; /* #F5D88A highlight / glow */
+
+  /* Text */
+  --text: 247 248 252; /* #F7F8FC near-white */
+  --text-muted: 154 166 196; /* #9AA6C4 muted blue-grey */
+  --text-faint: 106 118 148; /* #6A7694 faint */
+
+  /* Glass */
+  --glass-bg: 255 255 255; /* used with low alpha */
+  --glass-border: 233 193 88; /* gold-tinted hairline */
+
+  --radius: 0.875rem;
+}
+
+/* ==========================================================================
+   Base
+   ========================================================================== */
+@layer base {
+  * {
+    @apply border-navy-700/40;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+    scrollbar-gutter: stable;
+  }
+
+  body {
+    @apply bg-navy-950 text-ink font-sans antialiased;
+    text-rendering: optimizeLegibility;
+    min-height: 100dvh;
+  }
+
+  ::selection {
+    @apply bg-gold/30 text-ink;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    @apply font-display font-semibold tracking-tight text-balance;
+  }
+
+  /* Accessible, on-brand focus ring */
+  :focus-visible {
+    @apply outline-none ring-2 ring-gold ring-offset-2 ring-offset-navy-950;
+  }
+
+  /* Custom scrollbar (desktop) */
+  @media (pointer: fine) {
+    ::-webkit-scrollbar {
+      width: 10px;
+      height: 10px;
+    }
+    ::-webkit-scrollbar-track {
+      background: rgb(var(--navy-950));
+    }
+    ::-webkit-scrollbar-thumb {
+      background: rgb(var(--navy-700));
+      border-radius: 9999px;
+      border: 2px solid rgb(var(--navy-950));
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      background: rgb(var(--navy-600));
+    }
+  }
+}
+
+/* ==========================================================================
+   Reusable component utilities
+   ========================================================================== */
+@layer components {
+  /* Frosted glass surface used across cards, header, modals */
+  .glass {
+    background: linear-gradient(
+      135deg,
+      rgb(var(--glass-bg) / 0.06),
+      rgb(var(--glass-bg) / 0.02)
+    );
+    @apply border border-white/10 backdrop-blur-xl;
+  }
+
+  .glass-strong {
+    background: linear-gradient(
+      135deg,
+      rgb(var(--glass-bg) / 0.1),
+      rgb(var(--glass-bg) / 0.03)
+    );
+    @apply border border-white/10 backdrop-blur-2xl;
+  }
+
+  /* Gold gradient text (titles, accents) */
+  .text-gold-gradient {
+    @apply bg-gold-gradient bg-clip-text text-transparent;
+  }
+
+  /* Thin gold hairline divider */
+  .hairline {
+    @apply h-px w-full bg-gradient-to-r from-transparent via-gold/40 to-transparent;
+  }
+}
+
+/* ==========================================================================
+   Accessibility — honor reduced motion everywhere
+   ========================================================================== */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

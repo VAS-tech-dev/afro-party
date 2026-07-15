@@ -1,0 +1,206 @@
+{
+  "meta": {
+    "title": "Afro-Latina Party — VAS",
+    "description": "Afrobeats, Amapiano, Latino & Reggaeton. Une nuit inoubliable organisée par la VAS au BeatMatch Club de Worms. Vendredi 17 juillet 2026, dès 22h."
+  },
+  "common": {
+    "registerNow": "Confirmer ma présence",
+    "viewPrices": "Voir les tarifs",
+    "backHome": "Retour à l'accueil",
+    "loading": "Chargement…",
+    "free": "Gratuit",
+    "from": "Dès",
+    "language": "Langue",
+    "openMenu": "Ouvrir le menu",
+    "closeMenu": "Fermer le menu"
+  },
+  "nav": {
+    "event": "L'événement",
+    "whyJoin": "Pourquoi venir",
+    "prices": "Tarifs",
+    "location": "Lieu",
+    "faq": "FAQ"
+  },
+  "hero": {
+    "posterAlt": "Affiche officielle de l'Afro-Latina Party",
+    "organizedBy": "Organisé par la VAS — Verein Afrikanischer Studierende",
+    "tagline": "Afrobeats, Amapiano, Latino & Reggaeton — une seule nuit pour tout vivre.",
+    "date": "Vendredi 17 juillet 2026",
+    "time": "Dès 22h00",
+    "countdown": {
+      "title": "L'événement commence dans",
+      "days": "Jours",
+      "hours": "Heures",
+      "minutes": "Minutes",
+      "seconds": "Secondes",
+      "live": "C'est maintenant !"
+    }
+  },
+  "event": {
+    "eyebrow": "L'événement",
+    "title": "Une nuit, tous les sons",
+    "subtitle": "Le meilleur de l'afro et du latino sur un seul dancefloor, porté par une communauté internationale.",
+    "items": {
+      "afrobeats": "Afrobeats",
+      "amapiano": "Amapiano",
+      "dancehall": "Dancehall",
+      "latino": "Latino",
+      "reggaeton": "Reggaeton",
+      "international": "Sons internationaux",
+      "networking": "Networking",
+      "atmosphere": "Bonne ambiance"
+    }
+  },
+  "whyJoin": {
+    "eyebrow": "Pourquoi venir",
+    "title": "Fais de cette soirée la tienne",
+    "subtitle": "Ce n'est pas qu'une fête — c'est une rencontre.",
+    "items": {
+      "music": {
+        "title": "Une musique qui déménage",
+        "description": "Les meilleurs sons afro & latino, mixés toute la nuit."
+      },
+      "people": {
+        "title": "Rencontre du monde",
+        "description": "De nouvelles têtes, de nouvelles vibes, une seule piste."
+      },
+      "student": {
+        "title": "Ouvert à toutes et tous",
+        "description": "Une soirée publique, ouverte à tout le monde — pas seulement aux étudiants."
+      },
+      "atmosphere": {
+        "title": "Une ambiance folle",
+        "description": "Lumières, énergie et une foule qui vit la musique."
+      },
+      "community": {
+        "title": "Communauté internationale",
+        "description": "Une soirée où toutes les cultures se retrouvent."
+      },
+      "venue": {
+        "title": "Un lieu premium",
+        "description": "Le BeatMatch Club de Worms, rien que pour nous."
+      }
+    }
+  },
+  "prices": {
+    "eyebrow": "Tarifs",
+    "title": "Choisis ton tarif d'entrée",
+    "subtitle": "Chaque tarif correspond à l'entrée à la soirée. Confirme ta présence, paie à l'entrée ou en ligne.",
+    "perPerson": "par personne",
+    "cta": "Confirmer ma présence",
+    "popular": "Le plus choisi",
+    "categories": {
+      "VAS_MEMBER": {
+        "name": "Membre VAS",
+        "description": "Réservé aux membres de l'association, sur présentation du matricule."
+      },
+      "STUDENT": {
+        "name": "Étudiant·e",
+        "description": "Tarif étudiant, sur simple confirmation de présence."
+      },
+      "NON_STUDENT": {
+        "name": "Non étudiant·e",
+        "description": "Entrée standard, ouverte à toutes et tous."
+      },
+      "CONTRIBUTOR": {
+        "name": "Engagé·e VAS",
+        "description": "Pour les personnes engagées dans les activités du VAS."
+      }
+    },
+    "note": {
+      "title": "Bon à savoir",
+      "body": "Les membres VAS et les membres engagés renseignent leur matricule : le statut est vérifié par un administrateur. Les étudiant·es présentent une carte étudiante valide à l'entrée. Les tarifs correspondent à l'entrée à la soirée."
+    }
+  },
+  "location": {
+    "eyebrow": "Lieu",
+    "title": "Rendez-vous au BeatMatch Club",
+    "subtitle": "Au cœur de Worms, un club pensé pour la nuit.",
+    "directions": "Ouvre l'itinéraire"
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Questions fréquentes",
+    "subtitle": "Tout ce qu'il faut savoir avant la soirée.",
+    "items": {
+      "register": {
+        "question": "Comment confirmer ma présence ?",
+        "answer": "Clique sur « Confirmer ma présence », choisis ta catégorie et remplis le formulaire. Tu reçois aussitôt un email de confirmation."
+      },
+      "pay": {
+        "question": "Comment payer ?",
+        "answer": "Le paiement est manuel via PayPal ou sur place. Si tu choisis de payer en ligne, ton email de confirmation contient le lien PayPal et le montant exact, avec ton nom en objet (Verwendungszweck)."
+      },
+      "ticket": {
+        "question": "Quand vais-je recevoir mon billet ?",
+        "answer": "Ton billet avec QR Code t'est envoyé par email dès que ton paiement est confirmé par l'équipe. Les entrées gratuites validées reçoivent directement leur billet."
+      },
+      "qrcode": {
+        "question": "Comment fonctionne le QR Code ?",
+        "answer": "Ton billet contient un QR Code unique et sécurisé. Présente-le simplement à l'entrée : il est scanné et validé en une seconde."
+      },
+      "later": {
+        "question": "Puis-je payer plus tard ?",
+        "answer": "Oui. Tu peux confirmer ta présence sans payer immédiatement et régler plus tard, en ligne ou directement à l'entrée."
+      },
+      "verify": {
+        "question": "Les membres doivent-ils être vérifiés ?",
+        "answer": "Oui. Les membres VAS et les personnes engagées dans les activités du VAS sont vérifiés par un administrateur avant l'envoi des informations de paiement ou du billet."
+      }
+    }
+  },
+  "cta": {
+    "title": "Prêt·e pour une nuit inoubliable ?",
+    "subtitle": "Les places partent vite. Confirme ta présence dès maintenant.",
+    "button": "Confirmer ma présence"
+  },
+  "register": {
+    "title": "Confirme ta présence",
+    "subtitle": "Quelques informations et c'est réglé. Tu reçois un email de confirmation aussitôt.",
+    "fields": {
+      "firstName": "Prénom",
+      "lastName": "Nom",
+      "email": "Adresse email",
+      "phone": "Téléphone",
+      "language": "Langue",
+      "category": "Ton tarif d'entrée",
+      "memberNumber": "Numéro de membre (matricule)",
+      "memberNumberHint": "Ton statut sera vérifié par un administrateur avant validation."
+    },
+    "studentNote": "Tarif étudiant : une carte étudiante valide sera demandée à l'entrée.",
+    "pay": {
+      "question": "Souhaites-tu payer ton entrée maintenant ?",
+      "yes": "Oui, je paie maintenant",
+      "no": "Non, à l'entrée"
+    },
+    "contributorNote": "Entrée gratuite pour les membres engagés du VAS. Ton matricule sera vérifié par un administrateur ; aucun paiement n'est requis.",
+    "submit": "Confirmer ma présence",
+    "submitting": "Envoi en cours…",
+    "error": "Une erreur est survenue. Merci de réessayer dans un instant.",
+    "validation": {
+      "firstName": "Merci d'indiquer ton prénom.",
+      "lastName": "Merci d'indiquer ton nom.",
+      "email": "Merci d'indiquer une adresse email valide.",
+      "phone": "Merci d'indiquer un numéro de téléphone valide.",
+      "category": "Merci de choisir une catégorie.",
+      "memberNumber": "Le numéro de membre VAS est requis.",
+      "language": "Merci de choisir une langue."
+    }
+  },
+  "success": {
+    "title": "Inscription enregistrée",
+    "body": "Merci ! Ta présence a bien été enregistrée. Nous te contacterons très vite avec la suite.",
+    "reference": "Ta référence",
+    "back": "Retour à l'accueil"
+  },
+  "footer": {
+    "tagline": "Une nuit afro-latina inoubliable, organisée par le Verein Afrikanischer Studierende.",
+    "contact": "Contact",
+    "address": "Adresse",
+    "follow": "Suivez-nous",
+    "legal": "Mentions légales",
+    "privacy": "Confidentialité",
+    "rights": "Tous droits réservés.",
+    "madeBy": "Organisé par le VAS · Worms"
+  }
+}

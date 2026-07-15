@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cd \"c:\\\\Users\\\\ludov\\\\OneDrive\\\\Bureau\\\\VAS\" && find . -maxdepth 3 -type f \\\\\\( -iname \"*.png\" -o -iname \"*.jpg\" -o -iname \"*.jpeg\" -o -iname \"*.svg\" -o -iname \"*.webp\" -o -iname \"*.pdf\" \\\\\\) 2>/dev/null | head -40)",
+      "Read(//c/Users/ludov/OneDrive/Bureau/VAS/**)",
+      "Read(//c/Users/ludov/AppData/Local/Temp/**)"
+    ]
+  }
+}
