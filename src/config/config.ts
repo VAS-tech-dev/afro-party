@@ -140,8 +140,8 @@ export const config: EventConfig = {
     ogImage: '/og-image.png',
   },
 
-  locales: ['fr', 'en', 'de'],
-  defaultLocale: 'fr',
+  locales: ['de', 'fr', 'en'],
+  defaultLocale: 'de',
 };
 
 /* --------------------------------------------------------------------------
